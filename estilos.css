@@ -1,0 +1,356 @@
+::selection
+{
+	background:rgba(0,153,255,0.5);
+}
+
+body{
+	/*background:#98bf4b none no-repeat 0 0;*/
+	background:#101e24 url("images/fondo.jpg") ;
+	background: url("images/plus_s2.png")no-repeat 3% 6%, url("images/plus_s3.png")no-repeat 100% 15%, url("images/plus_s1.png")no-repeat 0% 50%, url("images/fondo.jpg")  ;
+	border:0;
+	color:white;
+	font-family: "PT Sans", Arial;
+	position:relative;
+	text-align:center;
+}
+footer
+{
+	
+	background:#676767;
+	height:150px;
+	margin-top:-39px;
+	width:100%;
+}
+header {
+	background: #525252;
+	border-top: 15px solid #6C8700;
+	margin: 0 0 30px;
+}
+
+header .container {
+	background: url("images/fondo-logos.png") no-repeat right top;
+	border-bottom: 5px solid #6C8700;
+	padding: 7px 0;
+	
+}
+
+header .container,.bloques,section {
+	margin: 0 auto;
+	width: 1000px;
+}
+#centroFooter
+{	
+	background:#525252;
+	color:white;
+	height:100px;
+	margin-top:10px;
+	position:relative;
+	top:20px;
+	width:100%;
+	
+}
+#centroFooter p
+{
+	position:relative;
+	top:30px;
+}
+#centroFooter a
+{
+	color:white;
+	text-decoration:none;
+	transition:0.5s;
+}
+#centroFooter ul li 
+{
+	border-left:1px solid white;
+	display:inline-block;
+	height:20px;
+	list-style:none;
+	margin-top:20px;
+	text-transform:uppercase;
+	width:120px;
+	
+}
+#centroFooter ul li a:hover
+{
+	text-shadow:0px 0px 5px white;
+}
+#destacados{
+	background:#0082ae;
+	height:150px;
+	margin-top:-30px;
+	}
+#destacados img
+{
+	margin-top:10px;
+}
+#episodios
+{
+	background:white;
+	color:white;
+	
+	width:100%;
+}
+#episodios #contenedor
+{
+	width:1001px;
+}
+#episodios #contenedor .episodio
+{
+	
+	display:inline-block;
+	height:290px;
+	margin-bottom:3px;
+	padding:20px;
+	position:relative;
+	width:207px;	
+	vertical-align:top;
+}
+#episodios #contenedor .episodio:nth-child(odd)
+{
+	background:#676767;
+
+}
+#episodios #contenedor .episodio:nth-child(even)
+{
+	background:#7A7A7A;
+	
+}
+#episodios #contenedor .episodio img
+{
+	transition:0.5s;
+}
+#episodios #contenedor .episodio .img
+{
+	border:5px solid white;
+	height:152px;
+	overflow:hidden;
+	transition:0.5s;
+	width:192px;
+
+}
+#episodios #contenedor .episodio .img:hover
+{
+	border:5px solid rgba(255,255,255,0.2);
+}
+#episodios #contenedor .episodio .img:hover img
+{
+	transform:scale(1.1,1.1);
+}
+
+#episodios #contenedor .episodio button
+{
+	background:#FF9400;
+	border:none;
+	border-radius:5px;
+	bottom:20px;
+	color:white;
+	padding:3px;
+	position:absolute;
+	right:20px;
+	transition:0.5s;
+	width:100px;
+	
+}
+#episodios #contenedor .episodio:hover button
+{
+	box-shadow:0px 0px 5px #FFCC00;
+	
+}
+#episodios #contenedor .episodio button:hover
+{
+	box-shadow:0px 0px 10px #FFCC00;
+}
+
+#episodios #contenedor .episodio p
+{
+	text-align:left;
+}
+#horarios
+{
+	margin-top:10px;
+	margin-bottom:-20px;
+	background-color:#6C8700;
+	background-image:url("images/fondito2.png");
+	height:110px;
+}
+#horarios h3
+{
+	color:#FF9400;
+	
+	left:10px;
+	position:relative;
+	text-transform:uppercase;
+	top:30px;
+	width:200px;
+	line-height:20px;
+}
+#horarios h3 span
+{
+	font-size:50px;
+	
+}
+#horarios ul 
+{
+	display:inline-block;
+	margin-top:-100px;
+	text-align:left;
+	list-style:none;
+}
+#horarios ul.listaUno
+{
+	
+	postion:relative;
+	
+	margin-left:-70px;
+}
+#horarios ul.listaDos
+{
+	position:relative;
+	
+	left:-20px;
+}
+#horarios ul.listaDos span
+{
+	display:block;
+	
+}
+#logos-mejorando {
+	display: inline-block;
+	margin: 30px 0 0 380px;
+	vertical-align: top;
+	
+}
+#mejorando {
+	display: inline-block;
+	height:100px;
+	margin-top:-14px;
+	margin-left:-18px;
+	vertical-align: top;
+	width: 268px;
+}
+
+#ultimoEp
+{
+	color:white;
+	margin-top:-20px;
+	text-align:justify;
+}
+#ultimoEp a
+{
+	color:white;
+	text-decoration:none;
+	transition:0.3s;
+}
+#ultimoEp a:hover
+{
+	text-shadow:0px 0px 10px #00CC00;
+}
+#ultimoEp .corchete1
+{
+	font-family:Times New Roman;
+	font-size:100px;
+	font-weight:normal;
+	
+	
+	
+}
+#ultimoEp .corchete2
+{
+	font-family:Times New Roman;
+	font-size:100px;
+	font-weight:normal;
+	position:relative;
+	right:-185px;
+}
+#ultimoEp .detalles
+{
+	color:#FF9400;
+	display:inline-block;
+	margin:0 0 0 78px;
+	position:relative;
+	top:25px;
+}
+
+#ultimoEp .ep
+{
+	background-color: #6C8700;
+	background-image:url("images/fondito.png");
+	height:488px;
+}
+#ultimoEp .ep .video
+{
+	margin:0 auto;
+	width:900px;
+}
+#ultimoEp .fecha
+{
+	
+	display:inline-block;
+	margin:0 0 0 680px;
+	vertical-align:text-top;
+	position:relative;
+	top:15px;
+}
+#ultimoEp h2
+{
+	
+	font-weight:normal;
+	margin:-40px 0 0 0;
+}
+.plus
+{
+	cursor:pointer;
+	font-size:60px;
+	margin-right:20px;
+	transition:0.5s;
+	display:inline-block;
+}
+.plus:hover
+{
+	transform:rotate(90deg);
+	text-shadow:0px 0px 5px white, 0px 0px 5px #00CC00;
+	
+}
+.social
+{
+	background:#94B900;
+	height:90px;
+	margin:-106px 0 0 760px;
+	padding-top:20px;
+	position:relative;
+	right:10;
+	width:240px;
+	
+}
+.social div
+{
+	display:inline-block;
+	margin-top:3px;
+	vertical-align:top;
+}
+.social .btn_googlemas
+{
+	margin-left:-11px;
+}
+.titulo
+{
+	text-align:left;
+	color:#FF9400;
+}
+
+.titulo strong
+{
+	color:white;
+	font-size:60px;
+	margin:0 10px;
+	position:relative;
+	top:10px;
+	
+}
+.titulo span
+{
+	color:white;
+	font-size:50px;
+	margin:0 10px;
+}
